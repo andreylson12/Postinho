@@ -1,0 +1,18 @@
+{
+  "name": "postinho-facil",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Postinho Fácil — tablet de vendas e gestão no Railway/PostgreSQL",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --check server.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.0.0",
+    "helmet": "^8.1.0",
+    "pg": "^8.16.3"
+  }
+}
